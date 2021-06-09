@@ -1,5 +1,5 @@
-/* 
-default color: var(--main-color) 
+/*
+default color: var(--main-color)
  */
 
 .bg-color,
@@ -80,6 +80,7 @@ a.btn-download:hover,
 .bloglist .date-box,
 #top-bar #mainmenu a.active{
     background-color: var(--main-color);
+    background-image: linear-gradient(90deg, #D05E98 27.91%, #DF6451 97.96%);;
 }
 
 @media only screen and (max-width: 992px) {
