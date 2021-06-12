@@ -82,14 +82,14 @@ html {
     overflow-x: hidden;
     padding: 0 !important;
     margin: 0 !important;
-    background: #eeeeee;
+    background: #111E2F;
 }
 
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    background: top fixed;
+    background:#111E2F top fixed;
     background-size: cover;
     color: #777777;
     line-height: 1.7em;
@@ -151,7 +151,7 @@ header .info {
     padding: 10px 0 10px 0;
     width: 100%;
     z-index: 100;
-    background: #242424;
+    background: #111E2F;
 }
 
 header .info .col {
@@ -894,7 +894,7 @@ header.header-mobile.header-light #menu-btn {
 
 #content {
     width: 100%;
-    background: #111111;
+    background: #111E2F;
     z-index: 100;
     overflow: hidden;
 	position:relative;
@@ -942,7 +942,7 @@ section {
 }
 
 section {
-    background: #111111;
+    background: #111E2F;
 }
 
 section.overwidth{
