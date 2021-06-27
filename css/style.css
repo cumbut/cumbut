@@ -8647,7 +8647,7 @@ img {
 .home-img {
     bottom: 0px;
     right: 20%;
-    position: fixed;
+    position: absolute;
 }
 
 /* ================================================== */
