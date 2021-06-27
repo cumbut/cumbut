@@ -8643,11 +8643,37 @@ img {
     background-color: #111E2F;
     position: relative;
 }
-
+.home-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.hero-row {
+    /* border-bottom-color: var(--main-color); */
+    /* border-bottom-width: 1px; */
+    /* border-bottom-style:solid ; */
+    display: flex;
+    flex-direction: row;
+}
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headline {
+    align-self: flex-start;
+}
 .home-img {
+    max-width: 100%;
+    height: auto;
     bottom: 0px;
-    right: 20%;
-    position: absolute;
+    border-bottom-color: var(--main-color);
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    /* left: 20%; */
+    /* position: absolute; */
 }
 
 /* ================================================== */
